@@ -5,5 +5,4 @@ Kafka/secrets.py
 Spark/notebooks/pruebas
 Spark/apps/spark_kafka_checkpoint
 .env
-Spark/spark_kafka_checkpoint
 PG/postgres_secrets.env
