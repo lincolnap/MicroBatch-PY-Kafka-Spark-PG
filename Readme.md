@@ -8,9 +8,11 @@
 * python
 
 ## Servicios Utilizados
+ * [Airflow](./Airflow/)
  * [Kafka](./kafka/)
  * [Postgres](./PG/)
  * [Spark](./Spark/)
+ * [Steamlit](./Steamlit/)
  * [Files](./src/)
 
 ## Arquitectura Utilizada
@@ -36,6 +38,17 @@ make spk_build
 
 ``` bash
 make spk_up
+```
+4. Levantar Aiflow
+
+``` bash
+make afl_up
+```
+
+5. Levantar Streamlit
+
+``` bash
+make streamlit_up
 ```
 
 Para mas intrucciones ver el video End to End en el siguiente enlace: 

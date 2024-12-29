@@ -24,3 +24,6 @@ afl_up:
 
 afl_down: 
 	docker-compose -f Airflow/docker-compose.yaml down
+
+streamlit_up: 
+	docker build -t streamlit-docker ./Steamlit && docker run -p 8501:8501 streamlit-docker
