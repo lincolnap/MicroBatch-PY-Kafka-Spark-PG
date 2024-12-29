@@ -10,6 +10,7 @@
 ## Servicios Utilizados
  * [Kafka](./kafka/)
  * [Postgres](./PG/)
+ * [Spark](./Spark/)
  * [Files](./src/)
 
 ## Arquitectura Utilizada
@@ -27,7 +28,18 @@ make kaf_up
 ``` bash
 make pg_go
 ```
+3. Levantar Spark
 
+``` bash
+make spk_build
+```
+
+``` bash
+make spk_up
+```
+
+Para mas intrucciones ver el video End to End en el siguiente enlace: 
+    - []
 
 
 
