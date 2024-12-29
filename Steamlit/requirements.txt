@@ -1,0 +1,5 @@
+kafka
+psycopg2-binary
+faker
+pandas
+streamlit
