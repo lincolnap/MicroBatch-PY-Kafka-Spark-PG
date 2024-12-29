@@ -7,7 +7,7 @@ kaf_down:
 kaf_down_all:  
 	docker-compose down -f Kafka/kafka-tools.yml --rmi all
 
-pg_go:
+pg_up:
 	docker-compose -f PG/pg.yml up -d
 
 pg_down:
@@ -16,8 +16,11 @@ pg_down:
 pg_down_all:
 	docker-compose -f PG/pg.yml down --rmi all
 
-spk_build:
-	docker build -t pyspark-custom:3.5-1 ./Spark
-
-spk_go:
+spk_up:
 	docker-compose -f Spark/spark-owner.yml up -d
+
+afl_up: 
+	docker-compose -f Airflow/docker-compose.yaml up -d
+
+afl_down: 
+	docker-compose -f Airflow/docker-compose.yaml down

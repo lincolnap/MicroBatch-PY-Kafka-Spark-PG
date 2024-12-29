@@ -1,8 +1,10 @@
+Airflow/logs
+Airflow/config
+src/secrets.py
 Kafka/config
 Kafka/kafka
 Kafka/data
-Kafka/secrets.py
-Spark/notebooks/pruebas
+src/secrets.py
 Spark/apps/spark_kafka_checkpoint
 .env
 PG/postgres_secrets.env
