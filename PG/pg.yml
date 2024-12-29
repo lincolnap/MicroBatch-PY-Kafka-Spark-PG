@@ -9,12 +9,12 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data
     networks:
-      - airflow-kafka
+      - mb-py-kaf-spark-pg
 
 volumes:
   postgres_data:
     driver: local
 
 networks:
-  airflow-kafka:
+  mb-py-kaf-spark-pg:
     external: true
